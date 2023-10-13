@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form 2</title>
+        <style>
+            
+            fieldset{ 
+                background-color: orange;
+                border: 8px solid black;
+                border-radius: 10%;
+                width: 280px;
+                height: 280px;
+                margin: 50px auto;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                
+            }
+            legend{
+                font-size: 30px;
+            }
+            label{
+                color: blueviolet;
+                font-style: italic;
+                width: 100px;
+                display: inline;
+            }
+            #one{
+                background-color: aqua;
+                font-size: 20px;
+            }
+            #one:hover{
+                background-color: brown;
+            }
+
+            
+        </style>
+</head>
+<body>
+    
+    <form action="">
+        
+        
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+    
+    
+    <label id="two" for="fname">First Name</label>
+    <input type="text" id="fname" name="fname">
+    <br><br>
+
+    <label for="mname">Middle Name</label>
+    <input type="text" id="mname" name="mname">
+    <br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname">
+    <br><br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <label for="dob">DOB</label>
+    <input type="date"  id="dob" name="dob">
+    
+</fieldset>
+
+<fieldset>
+    <legend><b>Education Details</b></legend>
+
+    <label for="">Department</label>
+    <br><br>
+
+    <input type="radio" id="cs" name="dept">
+    <label for="cs">cs</label>
+
+    
+    <input type="radio" id="civil" name="dept">
+    <label for="civil">civil</label>
+
+    <input type="radio" id="mech" name="dept">
+    <label for="mech">mech</label>
+    <br><br>
+
+    <label for="yop">YOG</label>
+    <input list="yog" id="yop" name="yop">
+    <datalist id="yog">
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+    </datalist>
+    <br><br>
+    
+    <label for="">Skills</label>
+    <br><br>
+
+    <input type="checkbox" id="html" name="html">
+    <label for="html">HTML</label>
+    <br><br>
+
+    <input type="checkbox" id="css" name="css">
+    <label for="css">CSS</label>
+    <br><br>
+
+    <input type="checkbox" id="Javascript" name="javascript">
+    <label for="Javascript">JAVASCRIPT</label>
+    <br><br>
+    
+    </fieldset>
+
+    
+    
+</form>
+<br><br>
+
+<a href="Message.html">
+    <center>
+    <input type="submit" name="" id="one"></a>
+</center>
+</body>
+</html>
